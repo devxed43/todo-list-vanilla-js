@@ -1,0 +1,21 @@
+.done {
+  color: rgb(198, 195, 195);
+  text-decoration: line-through;
+}
+
+.remove {
+  transition: 0.5s ease;
+  position: absolute;
+  left: -1000px;
+}
+
+.undo-btn {
+  display: none;
+}
+
+.show-btn {
+  display: block;
+  position: absolute;
+  top: 130px;
+  left: 50px;
+}
